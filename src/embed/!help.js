@@ -1,0 +1,11 @@
+const { MessageEmbed } = require('discord.js')
+
+module.exports = () => new MessageEmbed()
+    .setColor("#137C8B")
+    .setTitle("Liste des commandes")
+    .setURL("your-link")
+    .setAuthor("Romaric")
+    .setDescription("vous y trouverez la liste des commands du bot")
+    .addField("!help", "Affiche la liste des commandes")
+    .addField("!ping", "Répond pong")
+    .setTimestamp()
